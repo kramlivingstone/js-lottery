@@ -1,0 +1,94 @@
+* {
+	font-family: 'Quicksand',sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0
+}
+
+
+#modes {
+	margin: 20px auto;
+	text-align: center;
+}
+
+#modes .btn-default {
+	border-radius: 0;
+	border: none;
+	background: #66CC99;
+	padding: 20px 50px;
+	/*width: 100px;*/
+	/*font-weight: bold;*/
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+#mode {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 45px;
+}
+.buttons
+{
+	padding-top: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#next,
+#reset
+{
+	border-radius: 0;
+	border: none;
+	background: #73B1D6;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#ball-container
+{
+	border: 2px solid black;
+	font-size: 70px;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	margin: 30px auto;
+	text-align: center;
+	padding: 70px;
+}
+
+#lottery
+{	
+	padding-left: 60px;
+	margin: 0 auto;
+}
+.lottery-ball
+{
+	height: 150px;
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 55px;
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 30px;
+	background: #66CC99;
+}
+#next
+{
+	text-align: center;
+	margin:0 auto;
+	padding: 10px 15px;
+	display: none;
+}
+#reset
+{
+	display: none;
+	text-align: center;
+	margin:0 auto;
+	padding: 10px 15px;
+}
